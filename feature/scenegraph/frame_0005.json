@@ -1,0 +1,52 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "class": "person",
+      "bbox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": 1,
+      "class": "steering_wheel",
+      "bbox": [
+        150,
+        200,
+        50,
+        50
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": 2,
+      "class": "phone",
+      "bbox": [
+        300,
+        100,
+        30,
+        60
+      ],
+      "confidence": 0.7
+    }
+  ],
+  "relationships": [
+    {
+      "subject": 0,
+      "predicate": "holding",
+      "object": 2,
+      "confidence": 0.6
+    },
+    {
+      "subject": 0,
+      "predicate": "near",
+      "object": 1,
+      "confidence": 0.8
+    }
+  ],
+  "frame_name": "frame_0005"
+}
