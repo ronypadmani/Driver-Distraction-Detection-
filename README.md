@@ -1,8 +1,9 @@
+## Driver Distraction Detection System
 - A Driver Distraction Detection System identifies whether a driver is focused or distracted by analyzing dashboard camera images.
 - It understands driver behavior by detecting hand movements, phone usage, and overall body posture inside the vehicle.
 - This helps improve road safety by recognizing risky situations early and reducing chances of accidents.
 
-# 🚗 Synthetic Distracted Driving (SynDD1) Dataset
+## 🚗 Synthetic Distracted Driving (SynDD1) Dataset
 
 - The SynDD1 dataset is a high-quality synthetic distracted driving dataset available on the Mendeley Data platform.
 - It contains multiple distraction behaviors such as texting, talking to passengers, eating, drinking, adjusting controls, and normal driving.
@@ -38,7 +39,7 @@
 - Real-time driver monitoring and alert systems
 - Behavior classification from video frames
 
-# Install dependencies
+## Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
