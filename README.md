@@ -28,3 +28,21 @@
 - 📏 Distances between important points help detect distraction
 - 🧬 Image embeddings are generated for each frame
 - 📁 A combined JSON feature file is created per frame
+
+## Use Cases
+
+- Driver distraction detection
+- Deep learning model training and evaluation
+- Road-safety and behavior analytics
+- Advanced driver assistance systems (ADAS)
+- Real-time driver monitoring and alert systems
+- Behavior classification from video frames
+
+# Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## 📌 Note 
+- The SynDD1 dataset is publicly available for research and educational purposes only.
+-  Use of the dataset must follow the licensing terms on the platform.
